@@ -20,6 +20,5 @@ dependencies {
 
 
 golo {
-    mainModule = 'Romannumerals'
+    mainModule = 'romannumerals'
 }
-
