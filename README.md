@@ -11,12 +11,14 @@ A Golo application to... FIXME
 * MacOS and Linux users :
 
   ```golo
-  golo golo --files src/main/golo/RomanNumerals.golo --args 666```
+  golo golo --files RomanNumerals/src/main/golo/RomanNumerals.golo --args 666
+  ```
 
 * Windows users :
 
   ```golo
-  golo golo --files src\\main\\golo\\RomanNumerals.golo --args 666```
+  golo golo --files RomanNumerals\src\main\golo\RomanNumerals.golo --args 666
+  ```
 
 ## Options
 
