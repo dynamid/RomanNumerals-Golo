@@ -77,11 +77,8 @@ function main = |args|{
     if(args: length() != 0){
         let res = arabicToRoman(Integer.parseInt(args: get(0)))
         println(args: get(0) + " is " + res + " in Roman Numerals")
-
-
+    } else {
+        println("Don't forget to provide a number to translate.")
+        println("Usage : golo golo  --files RomanNumerals.golo --args <value>")
     }
 }
-
-
-
-
